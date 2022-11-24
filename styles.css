@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mukta Mahee", arial, sans-serif;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 60px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/* Title section */
+
+#title {
+  background-image: url(https://technext.github.io/villa/img/hero_1.jpg);
+  background-size: cover;
+  height: 100vh;
+  min-height: 700px;
+  width: 100%;
+}
+#title::before {
+  background: rgba(0, 0, 0, 0.45);
+  content: "";
+  position: absolute;
+  height: 100vh;
+  min-height: 700px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.navigationBar {
+  padding-top: 2rem;
+}
+.site-logo {
+  margin-left: 10%;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1;
+  font-family: "Playfair+Display", times, serif;
+  font-style: italic;
+}
+.collapse {
+  margin-left: 50%;
+}
+
+.titleText {
+  position: relative;
+  width: 100%;
+  top: 12rem;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: "Playfair+Display", times, serif;
+}
+.headingTitle {
+  font-size: 80px;
+}
+.subtitle {
+  font-size: 25px;
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  font-family: "Mukta Mahee", arial, sans-serif;
+  font-weight: 200;
+}
+
+.titleButton {
+  background-color: #e61c5d;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  margin-left: 10px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 50px;
+  font-family: "Mukta Mahee", arial, sans-serif;
+  font-weight: 500;
+}
+.exploreButton:hover {
+  background-color: #a31241;
+}
+.downloadButton:hover {
+  background-color: #fff;
+  color: black;
+}
+
+/* Visit section */
+#visitSection {
+  padding: 7em 0;
+  animation: fadeUp 1s ease;
+}
+.container {
+  color: black;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.visitSectionHeader {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Mukta Mahee", arial, sans-serif;
+  color: #b3b3b3;
+  letter-spacing: 0.2em;
+  margin-bottom: 30px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+h3 a {
+  font-size: 20px;
+  font-family: "Playfair+Display", times, serif;
+}
+
+.reviwsCount {
+  color: #adb5bd;
+  font-style: italic;
+}
+.iconStar {
+  color: #e61c5d;
+}
+
+/* Slider Section */
+
+#sliderSection {
+  text-align: center;
+  animation: fadeUp 1s ease;
+}
+
+.row {
+  justify-content: center;
+}
+
+.sliderSectionHeader {
+  font-family: "Playfair+Display", times, serif;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 300;
+}
+.carousel {
+  padding: 10px;
+}
+
+/* Testimonial Section  */
+
+#testimonial {
+  animation: fadeUp 1s ease;
+}
+
+.testimonialTitle {
+  font-family: "Playfair+Display", times, serif;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 300;
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+
+.testimonialContainer {
+  text-align: center;
+}
+.testimonialImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 2%;
+}
+
+/* Footer Section */
+
+#footerSection {
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 15px;
+  padding: 3%;
+  margin-top: 5%;
+}
+#footerSection li {
+  margin-bottom: 10px;
+}
+#footerSection a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#footerSection p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contactInfo {
+  font-style: italic;
+  color: #fff;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.form-control {
+  background: none;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.signUpButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background: none;
+}
+
+.borderTop {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 2%;
+  margin-top: 3%;
+  text-align: center;
+}
+.socialmediaIcons {
+  font-size: 25px;
+}
+.socialmediaIcons a {
+  margin-right: 10px;
+}
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
